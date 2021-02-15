@@ -22,7 +22,7 @@ Good Luck
 
 **Comment to Guy/Tom**
 
-This keyboard have a little suprise for you guys.
+This keyboard have a little surprise for you guys.
 
 Look on this answer
 
