@@ -21,6 +21,7 @@ Good Luck
 <img src="KTTBIMG/chooseKTTB.PNG" width="150" height="200">
 
 **Comment to Guy/Tom**
+
 This keyboard have a little suprise for you guys.
 
 Look on this answer
