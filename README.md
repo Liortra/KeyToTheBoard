@@ -24,9 +24,10 @@ Good Luck
 This keyboard have a little suprise for you guys.
 
 Look on this answer
+
 *https://stackoverflow.com/questions/61169547/cant-find-the-saved-data-to-text-file-in-internal-storage-how-to-save-file-in-i*
 
-<img src="KTTBIMG/saveTheText.PNG" width="200" height="200">
+<img src="KTTBIMG/saveTheText.PNG" width="300" height="300">
 
 Hope you enjoy.
 
