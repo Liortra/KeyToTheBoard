@@ -16,7 +16,10 @@ public class MyUtils {
 
     public static void writeFileToDevice(String dataToWrite, String fileNameWithExtension, File filesDir) {
         File folder = new File(filesDir + File.separator + "MyFiles" + File.separator + "Keyboard_Files");
-
+        boolean success = false;
+        if (!folder.exists()) {
+            success = folder.mkdirs();
+        }
         File file = new File(folder.getPath() + File.separator + fileNameWithExtension);
         PrintWriter writer = null;
 
@@ -27,7 +30,8 @@ public class MyUtils {
             writer.print(dataToWrite);
             writer.flush();
             writer.close();
-            Log.d("TAG", "writeFileToDevice: " + filesDir.toString() + "/" + fileNameWithExtension);
+//            Log.d("TAG", "writeFileToDevice: " + filesDir.toString() + "/" + fileNameWithExtension);
+            Log.d("TAG", "writeFileToDevice: " + file.toString());
         } catch (FileNotFoundException e) {
             Log.d("TAG", "writeToFile FileNotFoundException" + e.getMessage());
             e.printStackTrace();
